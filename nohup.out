@@ -1,0 +1,233 @@
+python: can't open file 'script.py': [Errno 2] No such file or directory
+ * Serving Flask app "app" (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: on
+ * Running on http://0.0.0.0:5555/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 291-833-809
+127.0.0.1 - - [23/Jun/2019 14:37:43] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [23/Jun/2019 14:37:43] "GET /static/css/fonts.css HTTP/1.1" 200 -
+127.0.0.1 - - [23/Jun/2019 14:37:43] "GET /static/js/bootstrap.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [23/Jun/2019 14:37:43] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+127.0.0.1 - - [23/Jun/2019 14:37:43] "GET /static/js/moment.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [23/Jun/2019 14:37:43] "GET /static/js/jquery.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [23/Jun/2019 14:37:43] "GET /static/css/custom_design.css HTTP/1.1" 200 -
+127.0.0.1 - - [23/Jun/2019 14:37:43] "GET /static/images/bg_img.png HTTP/1.1" 200 -
+127.0.0.1 - - [23/Jun/2019 14:37:44] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [23/Jun/2019 14:37:44] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+127.0.0.1 - - [23/Jun/2019 14:37:44] "GET /static/css/fonts.css HTTP/1.1" 304 -
+127.0.0.1 - - [23/Jun/2019 14:37:44] "GET /static/js/jquery.min.js HTTP/1.1" 304 -
+127.0.0.1 - - [23/Jun/2019 14:37:44] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+127.0.0.1 - - [23/Jun/2019 14:37:44] "GET /static/js/moment.min.js HTTP/1.1" 304 -
+127.0.0.1 - - [23/Jun/2019 14:37:44] "GET /static/css/custom_design.css HTTP/1.1" 304 -
+127.0.0.1 - - [23/Jun/2019 14:37:49] "POST /search HTTP/1.1" 200 -
+127.0.0.1 - - [23/Jun/2019 14:37:54] "POST /search HTTP/1.1" 200 -
+127.0.0.1 - - [23/Jun/2019 14:38:02] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [23/Jun/2019 14:38:07] "POST /search HTTP/1.1" 200 -
+127.0.0.1 - - [23/Jun/2019 14:40:58] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [23/Jun/2019 14:40:58] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.43.217 - - [23/Jun/2019 14:41:43] "GET / HTTP/1.1" 200 -
+192.168.43.217 - - [23/Jun/2019 14:41:44] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+192.168.43.217 - - [23/Jun/2019 14:41:44] "GET /static/js/jquery.min.js HTTP/1.1" 200 -
+192.168.43.217 - - [23/Jun/2019 14:41:44] "GET /static/js/bootstrap.min.js HTTP/1.1" 200 -
+192.168.43.217 - - [23/Jun/2019 14:41:44] "GET /static/css/fonts.css HTTP/1.1" 200 -
+192.168.43.217 - - [23/Jun/2019 14:41:44] "GET /static/css/custom_design.css HTTP/1.1" 200 -
+192.168.43.217 - - [23/Jun/2019 14:41:44] "GET /static/js/moment.min.js HTTP/1.1" 200 -
+192.168.43.217 - - [23/Jun/2019 14:41:44] "GET /static/images/bg_img.png HTTP/1.1" 200 -
+192.168.43.217 - - [23/Jun/2019 14:41:44] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.43.217 - - [23/Jun/2019 14:41:50] "POST /search HTTP/1.1" 200 -
+192.168.43.217 - - [23/Jun/2019 14:42:00] "GET / HTTP/1.1" 200 -
+192.168.43.217 - - [23/Jun/2019 14:42:00] "GET /static/css/fonts.css HTTP/1.1" 304 -
+192.168.43.217 - - [23/Jun/2019 14:42:00] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+192.168.43.217 - - [23/Jun/2019 14:42:00] "GET /static/css/custom_design.css HTTP/1.1" 304 -
+192.168.43.217 - - [23/Jun/2019 14:42:00] "GET /static/js/jquery.min.js HTTP/1.1" 304 -
+192.168.43.217 - - [23/Jun/2019 14:42:00] "GET /static/js/moment.min.js HTTP/1.1" 304 -
+192.168.43.217 - - [23/Jun/2019 14:42:00] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+192.168.43.217 - - [23/Jun/2019 14:42:03] "GET / HTTP/1.1" 200 -
+ * Serving Flask app "app" (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: on
+ * Running on http://0.0.0.0:5555/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 131-516-904
+192.168.43.217 - - [23/Jun/2019 21:03:34] "GET / HTTP/1.1" 200 -
+192.168.43.217 - - [23/Jun/2019 21:03:34] "GET /static/css/fonts.css HTTP/1.1" 304 -
+192.168.43.217 - - [23/Jun/2019 21:03:34] "GET /static/js/moment.min.js HTTP/1.1" 304 -
+192.168.43.217 - - [23/Jun/2019 21:03:34] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+192.168.43.217 - - [23/Jun/2019 21:03:34] "GET /static/js/jquery.min.js HTTP/1.1" 304 -
+192.168.43.217 - - [23/Jun/2019 21:03:34] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+192.168.43.217 - - [23/Jun/2019 21:03:34] "GET /static/css/custom_design.css HTTP/1.1" 304 -
+192.168.43.217 - - [23/Jun/2019 21:05:31] "GET / HTTP/1.1" 200 -
+192.168.43.217 - - [23/Jun/2019 21:05:31] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+192.168.43.217 - - [23/Jun/2019 21:05:31] "GET /static/css/fonts.css HTTP/1.1" 304 -
+192.168.43.217 - - [23/Jun/2019 21:05:31] "GET /static/js/jquery.min.js HTTP/1.1" 304 -
+192.168.43.217 - - [23/Jun/2019 21:05:31] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+192.168.43.217 - - [23/Jun/2019 21:05:31] "GET /static/js/moment.min.js HTTP/1.1" 304 -
+192.168.43.217 - - [23/Jun/2019 21:05:31] "GET /static/css/custom_design.css HTTP/1.1" 304 -
+192.168.43.217 - - [23/Jun/2019 21:06:54] "GET / HTTP/1.1" 200 -
+192.168.43.217 - - [23/Jun/2019 21:07:33] "GET / HTTP/1.1" 200 -
+192.168.43.217 - - [23/Jun/2019 21:07:33] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+192.168.43.217 - - [23/Jun/2019 21:07:33] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+192.168.43.217 - - [23/Jun/2019 21:07:33] "GET /static/css/fonts.css HTTP/1.1" 304 -
+192.168.43.217 - - [23/Jun/2019 21:07:33] "GET /static/js/jquery.min.js HTTP/1.1" 304 -
+192.168.43.217 - - [23/Jun/2019 21:07:33] "GET /static/js/moment.min.js HTTP/1.1" 304 -
+192.168.43.217 - - [23/Jun/2019 21:07:33] "GET /static/css/custom_design.css HTTP/1.1" 304 -
+192.168.43.217 - - [23/Jun/2019 21:07:59] "POST /search HTTP/1.1" 200 -
+ * Detected change in '/home/santh/flask_projects/workbooksearch/app.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 131-516-904
+ * Detected change in '/home/santh/flask_projects/workbooksearch/app.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 131-516-904
+192.168.43.217 - - [23/Jun/2019 21:26:41] "GET / HTTP/1.1" 200 -
+192.168.43.217 - - [23/Jun/2019 21:26:42] "GET /favicon.ico HTTP/1.1" 404 -
+/home/santh/flask_projects/workbooksearch/app.py:49: FutureWarning: Sorting because non-concatenation axis is not aligned. A future version
+of pandas will change to not sort by default.
+
+To accept the future behavior, pass 'sort=False'.
+
+To retain the current behavior and silence the warning, pass 'sort=True'.
+
+  InfoDF = pd.concat([InfoDF,tempDF])
+192.168.43.217 - - [23/Jun/2019 21:26:55] "POST /search HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/home/santh/flask_projects/envr/lib/python2.7/site-packages/flask/app.py", line 2328, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/home/santh/flask_projects/envr/lib/python2.7/site-packages/flask/app.py", line 2314, in wsgi_app
+    response = self.handle_exception(e)
+  File "/home/santh/flask_projects/envr/lib/python2.7/site-packages/flask/app.py", line 1760, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/santh/flask_projects/envr/lib/python2.7/site-packages/flask/app.py", line 2311, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/santh/flask_projects/envr/lib/python2.7/site-packages/flask/app.py", line 1834, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/santh/flask_projects/envr/lib/python2.7/site-packages/flask/app.py", line 1737, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/santh/flask_projects/envr/lib/python2.7/site-packages/flask/app.py", line 1832, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/santh/flask_projects/envr/lib/python2.7/site-packages/flask/app.py", line 1818, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/santh/flask_projects/workbooksearch/app.py", line 45, in search
+    car_df = df[(df[CARRIER_COLUMN_NAME].str.contains(str(keyword), case=False)) & (df[STATUS_COLUMN_NAME] == 'LIVE')]
+  File "/home/santh/flask_projects/envr/lib/python2.7/site-packages/pandas/core/frame.py", line 2927, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/home/santh/flask_projects/envr/lib/python2.7/site-packages/pandas/core/indexes/base.py", line 2659, in get_loc
+    return self._engine.get_loc(self._maybe_cast_indexer(key))
+  File "pandas/_libs/index.pyx", line 108, in pandas._libs.index.IndexEngine.get_loc
+    
+  File "pandas/_libs/index.pyx", line 132, in pandas._libs.index.IndexEngine.get_loc
+    
+  File "pandas/_libs/hashtable_class_helper.pxi", line 1601, in pandas._libs.hashtable.PyObjectHashTable.get_item
+    
+  File "pandas/_libs/hashtable_class_helper.pxi", line 1608, in pandas._libs.hashtable.PyObjectHashTable.get_item
+    
+KeyError: 'Carrier_Name'
+192.168.43.217 - - [23/Jun/2019 21:27:37] "POST /search HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/home/santh/flask_projects/envr/lib/python2.7/site-packages/flask/app.py", line 2328, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/home/santh/flask_projects/envr/lib/python2.7/site-packages/flask/app.py", line 2314, in wsgi_app
+    response = self.handle_exception(e)
+  File "/home/santh/flask_projects/envr/lib/python2.7/site-packages/flask/app.py", line 1760, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/santh/flask_projects/envr/lib/python2.7/site-packages/flask/app.py", line 2311, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/santh/flask_projects/envr/lib/python2.7/site-packages/flask/app.py", line 1834, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/santh/flask_projects/envr/lib/python2.7/site-packages/flask/app.py", line 1737, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/santh/flask_projects/envr/lib/python2.7/site-packages/flask/app.py", line 1832, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/santh/flask_projects/envr/lib/python2.7/site-packages/flask/app.py", line 1818, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/santh/flask_projects/workbooksearch/app.py", line 45, in search
+    car_df = df[(df[CARRIER_COLUMN_NAME].str.contains(str(keyword), case=False)) & (df[STATUS_COLUMN_NAME] == 'LIVE')]
+  File "/home/santh/flask_projects/envr/lib/python2.7/site-packages/pandas/core/frame.py", line 2927, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/home/santh/flask_projects/envr/lib/python2.7/site-packages/pandas/core/indexes/base.py", line 2659, in get_loc
+    return self._engine.get_loc(self._maybe_cast_indexer(key))
+  File "pandas/_libs/index.pyx", line 108, in pandas._libs.index.IndexEngine.get_loc
+    
+  File "pandas/_libs/index.pyx", line 132, in pandas._libs.index.IndexEngine.get_loc
+    
+  File "pandas/_libs/hashtable_class_helper.pxi", line 1601, in pandas._libs.hashtable.PyObjectHashTable.get_item
+    
+  File "pandas/_libs/hashtable_class_helper.pxi", line 1608, in pandas._libs.hashtable.PyObjectHashTable.get_item
+    
+KeyError: 'Carrier_Name'
+ * Detected change in '/home/santh/flask_projects/workbooksearch/app.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 131-516-904
+192.168.43.217 - - [23/Jun/2019 21:28:02] "GET / HTTP/1.1" 200 -
+192.168.43.217 - - [23/Jun/2019 21:28:03] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+192.168.43.217 - - [23/Jun/2019 21:28:03] "GET /static/css/fonts.css HTTP/1.1" 200 -
+192.168.43.217 - - [23/Jun/2019 21:28:03] "GET /static/js/bootstrap.min.js HTTP/1.1" 200 -
+192.168.43.217 - - [23/Jun/2019 21:28:03] "GET /static/js/jquery.min.js HTTP/1.1" 200 -
+192.168.43.217 - - [23/Jun/2019 21:28:03] "GET /static/js/moment.min.js HTTP/1.1" 200 -
+192.168.43.217 - - [23/Jun/2019 21:28:03] "GET /static/css/custom_design.css HTTP/1.1" 200 -
+192.168.43.217 - - [23/Jun/2019 21:28:03] "GET /static/images/bg_img.png HTTP/1.1" 200 -
+192.168.43.217 - - [23/Jun/2019 21:28:03] "GET / HTTP/1.1" 200 -
+192.168.43.217 - - [23/Jun/2019 21:28:03] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+192.168.43.217 - - [23/Jun/2019 21:28:03] "GET /static/css/fonts.css HTTP/1.1" 200 -
+192.168.43.217 - - [23/Jun/2019 21:28:03] "GET /static/js/jquery.min.js HTTP/1.1" 200 -
+192.168.43.217 - - [23/Jun/2019 21:28:03] "GET /static/js/bootstrap.min.js HTTP/1.1" 200 -
+192.168.43.217 - - [23/Jun/2019 21:28:03] "GET /static/js/moment.min.js HTTP/1.1" 200 -
+192.168.43.217 - - [23/Jun/2019 21:28:03] "GET /static/css/custom_design.css HTTP/1.1" 200 -
+192.168.43.217 - - [23/Jun/2019 21:28:04] "GET /static/images/bg_img.png HTTP/1.1" 200 -
+/home/santh/flask_projects/workbooksearch/app.py:50: FutureWarning: Sorting because non-concatenation axis is not aligned. A future version
+of pandas will change to not sort by default.
+
+To accept the future behavior, pass 'sort=False'.
+
+To retain the current behavior and silence the warning, pass 'sort=True'.
+
+  InfoDF = pd.concat([InfoDF,tempDF])
+192.168.43.217 - - [23/Jun/2019 21:28:09] "POST /search HTTP/1.1" 200 -
+ * Detected change in '/home/santh/flask_projects/workbooksearch/app.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 131-516-904
+ * Detected change in '/home/santh/flask_projects/workbooksearch/app.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 131-516-904
+ * Detected change in '/home/santh/flask_projects/workbooksearch/app.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 131-516-904
+192.168.43.217 - - [23/Jun/2019 21:30:47] "GET / HTTP/1.1" 200 -
+192.168.43.217 - - [23/Jun/2019 21:30:47] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+192.168.43.217 - - [23/Jun/2019 21:30:48] "GET /static/css/fonts.css HTTP/1.1" 200 -
+192.168.43.217 - - [23/Jun/2019 21:30:48] "GET /static/js/jquery.min.js HTTP/1.1" 200 -
+192.168.43.217 - - [23/Jun/2019 21:30:48] "GET /static/js/bootstrap.min.js HTTP/1.1" 200 -
+192.168.43.217 - - [23/Jun/2019 21:30:48] "GET /static/js/moment.min.js HTTP/1.1" 200 -
+192.168.43.217 - - [23/Jun/2019 21:30:48] "GET /static/css/custom_design.css HTTP/1.1" 200 -
+192.168.43.217 - - [23/Jun/2019 21:30:48] "GET /static/images/bg_img.png HTTP/1.1" 200 -
+/home/santh/flask_projects/workbooksearch/app.py:50: FutureWarning: Sorting because non-concatenation axis is not aligned. A future version
+of pandas will change to not sort by default.
+
+To accept the future behavior, pass 'sort=False'.
+
+To retain the current behavior and silence the warning, pass 'sort=True'.
+
+  InfoDF = pd.concat([InfoDF,tempDF])
+192.168.43.217 - - [23/Jun/2019 21:30:53] "POST /search HTTP/1.1" 200 -
+ * Detected change in '/home/santh/flask_projects/workbooksearch/app.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 131-516-904
+ * Detected change in '/home/santh/flask_projects/workbooksearch/app.py', reloading
+ * Restarting with stat
+  File "/home/santh/flask_projects/workbooksearch/app.py", line 50
+    InfoDF = pd.concat([InfoDF,tempDF] axis=1, join='inner')
+                                          ^
+SyntaxError: invalid syntax

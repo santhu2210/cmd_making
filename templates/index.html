@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Workbook Search App</title>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/bootstrap.min.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/fonts.css') }}" >
+    <script src="{{ url_for('static', filename='js/jquery.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/bootstrap.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/moment.min.js') }}"></script>
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/custom_design.css') }}" >
+
+</head>
+    
+<body>
+
+    <div class="container">
+        <div class="header">
+            <nav>
+                <ul class="nav nav-pills pull-right">
+                    <li role="presentation" class="active"><a href="#">Home</a>
+                    </li>
+                    <!-- <li role="presentation"><a href="showSignin">Sign In</a>
+                    </li> -->
+                </ul>
+            </nav>
+            <h2 class="text-muted">Welcome To CMD making App</h2>
+        </div>
+
+        <div id="time-part"></div>
+        <div id="date-part"></div>        
+
+        <div class="jumbotron">
+            <!-- <h3>Workbook search</h3>
+            <p class="lead"></p> -->
+
+            <form class="form-search">
+
+            <label for="GTName" class="sr-only">keyword</label>
+            <input type="text" name="GTName" id="GTName" class="form-control" placeholder=" GT Name " autofocus required />
+
+            <select  class="form-control" id="Operator1" name="Operator1" >
+              <option value="" disabled selected>Operator 1</option>
+              <option value="France Telecom" >France Telecom</option>
+              <option value="BT Gloucester">BT Gloucester</option>
+              <option value="BT Madley">BT Madley</option>
+              <option value="Chennai STP" >Chennai STP</option>
+              <option value="BT Leeds">BT Leeds</option>
+              <option value="Telefonica">Telefonica</option>
+            </select>
+
+            <select  class="form-control" id="Operator2" name="Operator2" >
+              <option value="" disabled selected>Operator 2</option>
+              <option value="France Telecom" >France Telecom</option>
+              <option value="BT Gloucester">BT Gloucester</option>
+              <option value="BT Madley">BT Madley</option>
+              <option value="Chennai STP" >Chennai STP</option>
+              <option value="BT Leeds">BT Leeds</option>
+              <option value="Telefonica">Telefonica</option>
+            </select> <br>
+            <strong class=""> E164  </strong> : &ensp;<input type="radio" id="E164_radio" name="cmd_mode" value="E164">  &emsp; &emsp;
+            <strong class=""> E214 </strong> : &ensp;<input type="radio" id="E214_radio" name="cmd_mode" value="E214">  &emsp; &emsp;
+            <strong class=""> 164 </strong> : &ensp;<input type="radio" id="164_radio" name="cmd_mode" value="164">  &emsp; &emsp;
+            <strong class=""> 214 </strong> : &ensp;<input type="radio" id="214_radio" name="cmd_mode" value="214">
+
+
+
+
+            <p class="lead"></p>
+
+            <button id="btnSearch" class="btn btn-lg btn-primary btn-block" type="button">Search</button>
+            </form>
+
+        </div>
+
+        <div class="row marketing">
+            <div class="col-lg-9">
+                <h3>Search Result</h3>
+                <p class="lead"></p>
+                
+                <div id='result'>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <footer class="footer">
+<!--             <p>&copy; Airtel 2019 reserved..</p>
+ -->        </footer>
+
+    </div>
+</body>
+
+<script type="text/javascript">
+
+$(function() {
+    $('#btnSearch').click(function() {
+
+        var GTName = $('#GTName').val();
+        var Operator1 = $('#Operator1').val();
+        var Operator2 = $('#Operator2').val();
+
+        if (GTName != "")  {
+            debugger
+            $.ajax({
+                url: '/search',
+                data: $('form').serialize(),
+                type: 'POST',
+                success: function(response) {
+                    //console.log(response);
+                    $('#result').html(response);
+
+                },
+                error: function(error) {
+                    console.log(error);
+                }
+            });
+        }
+        else {
+            alert("Please fill Carrier/ TG name with atleast 3 character or more..!!");
+        }
+    });
+});
+
+
+$(document).ready(function() {
+    var interval = setInterval(function() {
+        var momentNow = moment();
+        $('#date-part').html(momentNow.format('DD MMMM YYYY') + ' '
+                            + momentNow.format('dddd')
+                             .substring(0,3).toUpperCase());
+        $('#time-part').html(momentNow.format('hh:mm:ss A'));
+    }, 100);
+});
+
+
+</script>
+
+</html>
